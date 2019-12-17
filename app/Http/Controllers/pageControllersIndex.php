@@ -10,4 +10,8 @@ class pageControllersIndex extends Controller
         return view('welcome');
 
     }
+
+    public function manual(){
+        return view('manual');
+    }
 }

@@ -18,6 +18,7 @@ class CreatePlantelsTable extends Migration
             $table->string('nombre');
             $table->string('especialidad');
             $table->string('telefono');
+            $table->string('avatar');
             $table->timestamps();
         });
     }
